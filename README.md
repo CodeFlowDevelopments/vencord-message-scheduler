@@ -4,10 +4,8 @@
 
 ![Vencord](https://img.shields.io/badge/Vencord-Plugin-7289DA?style=flat-square)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green?style=flat-square)
-![Author](https://img.shields.io/badge/Author-hmood-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript)
-![Discord](https://img.shields.io/badge/Discord-CodeFlow-5865F2?style=flat-square&logo=discord)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey?style=flat-square)
 ![Stars](https://img.shields.io/github/stars/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square&color=yellow)
 ![Issues](https://img.shields.io/github/issues/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square&color=red)
