@@ -4,19 +4,29 @@
 
 ![Vencord](https://img.shields.io/badge/Vencord-Plugin-7289DA?style=flat-square)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green?style=flat-square)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)
-![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey?style=flat-square)
-![Stars](https://img.shields.io/github/stars/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square&color=yellow)
-![Issues](https://img.shields.io/github/issues/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square&color=red)
+![Author](https://img.shields.io/badge/Author-hmood-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Version-2.0.0-orange?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Stars](https://img.shields.io/github/stars/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square)
+![Issues](https://img.shields.io/github/issues/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square)
+
 ---
 
 ## ✨ Features
 
 - 🕐 Clock icon in the chat bar for quick access
 - ⚡ Preset times: 5s, 30s, 5m, 10m, 30m, 1h, 2h, 1d, 1w, 1 month
+- 📅 Schedule by exact date and time
 - ⚙️ Custom time input (seconds, minutes, hours, days, months)
-- 📋 View and cancel pending messages
+- 🔁 Repeat messages (set count or repeat forever)
+- 🎲 Random messages — add a pool and send randomly each time
+- 📢 Send to any channel in the server, not just the current one
+- 💾 Save messages for reuse later
+- 🔍 Search through pending messages
+- ✏️ Edit a pending message without cancelling it
+- 📤 Export your scheduled data as JSON
+- 📥 Import data from a backup file
+- 🔔 Notification 1 minute before a message is sent
 - 🌐 Arabic & English language support
 
 ---
@@ -47,17 +57,15 @@ pnpm install --frozen-lockfile
 
 **3 — Download the plugin**
 
-Go to this repository and download `index.tsx` by clicking it then **Download raw file**.
-
-**4 — Place the file**
-
-Create a folder named `MessageScheduler` inside `src\plugins` and place `index.tsx` in it:
+Download `index.tsx` from this repository and place it here:
 
 ```
 Vencord-main\src\plugins\MessageScheduler\index.tsx
 ```
 
-**5 — Build and inject**
+> Create a folder named `MessageScheduler` inside `src\plugins`
+
+**4 — Build and inject**
 
 ```bash
 git init
@@ -70,9 +78,9 @@ pnpm build
 pnpm inject
 ```
 
-**6 — Enable the plugin**
+**5 — Enable the plugin**
 
-Open Discord → `Settings` → `Plugins` → search for **MessageScheduler** → enable it ✅
+Open Discord → `Settings` → `Plugins` → search **MessageScheduler** → enable ✅
 
 ---
 
@@ -80,8 +88,19 @@ Open Discord → `Settings` → `Plugins` → search for **MessageScheduler** �
 
 1. Click the clock 🕐 icon in the chat bar
 2. Type your message
-3. Select a preset time or choose **Custom**
-4. Click **Schedule Message**
+3. Select a preset time, exact date, or custom duration
+4. Optionally enable repeat or random messages
+5. Click **Schedule Message**
+
+---
+
+## 📋 Tabs
+
+| Tab | Description |
+|-----|-------------|
+| Schedule | Create a new scheduled message |
+| Saved | Your saved message templates |
+| Queue | All pending messages with search and edit |
 
 ---
 
@@ -93,9 +112,22 @@ Open Discord → `Settings` → `Plugins` → search for **MessageScheduler** �
 
 ---
 
+## 📤 Import / Export
+
+- Click **Export Data** to save all your scheduled and saved messages as a `.json` file
+- Click **Import Data** to restore from a backup file
+
+---
+
 ## 👤 Author
 
 **hmood** — [CodeFlow Developments](https://github.com/CodeFlowDevelopments)
+
+---
+
+## 🐛 Issues
+
+Found a bug? [Open an issue](https://github.com/CodeFlowDevelopments/vencord-message-scheduler/issues)
 
 ---
 
