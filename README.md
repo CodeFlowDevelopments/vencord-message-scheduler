@@ -122,9 +122,7 @@ Open Discord → `Settings` → `Plugins` → search **MessageScheduler** → en
 ## 👤 Author
 
 **vNeRf** 
-[CodeFlow Developments](https://github.com/CodeFlowDevelopments)
-[CodeFlow Dis](https://discord.gg/FAfg8qkkXh)
-[Guns.Lol](https://guns.lol/97uc)
+[CodeFlow Developments](https://github.com/CodeFlowDevelopments) — [CodeFlow Dis](https://discord.gg/FAfg8qkkXh) — [Guns.Lol](https://guns.lol/97uc)
 
 ---
 
