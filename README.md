@@ -60,7 +60,7 @@ pnpm install --frozen-lockfile
 Download `index.tsx` from this repository and place it here:
 
 ```
-Vencord-main\src\plugins\MessageScheduler\index.tsx
+https://github.com/CodeFlowDevelopments/vencord-message-scheduler.git
 ```
 
 > Create a folder named `MessageScheduler` inside `src\plugins`
