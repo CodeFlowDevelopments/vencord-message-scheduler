@@ -122,7 +122,7 @@ cd Desktop\Vencord-main
 pnpm install --frozen-lockfile
 ```
 
-**3 — حط ملف البلوجن**
+**3 — حط ملف بلوقن**
 
 حمل `index.tsx` وحطه هنا:
 ```
@@ -142,7 +142,7 @@ pnpm build
 pnpm inject
 ```
 
-**5 — فعّل البلوجن**
+**5 — فعّل البلوقن**
 
 Discord ← `Settings` ← `Plugins` ← ابحث عن **MessageScheduler** ← فعّله ✅
 
