@@ -121,7 +121,10 @@ Open Discord → `Settings` → `Plugins` → search **MessageScheduler** → en
 
 ## 👤 Author
 
-**hmood** — [CodeFlow Developments](https://github.com/CodeFlowDevelopments)
+**vNeRf** 
+[CodeFlow Developments](https://github.com/CodeFlowDevelopments)
+[CodeFlow Dis](https://discord.gg/FAfg8qkkXh)
+[Guns.Lol](https://guns.lol/97uc)
 
 ---
 
