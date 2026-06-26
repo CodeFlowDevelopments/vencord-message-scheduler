@@ -2,7 +2,6 @@
 
 ![Vencord](https://img.shields.io/badge/Vencord-Plugin-7289DA?style=flat-square)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green?style=flat-square)
-![Author](https://img.shields.io/badge/Author-hmood-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-2.0.0-orange?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Stars](https://img.shields.io/github/stars/CodeFlowDevelopments/vencord-message-scheduler?style=flat-square)
@@ -182,7 +181,7 @@ Discord ← `Settings` ← `Plugins` ← ابحث عن **MessageScheduler** ← 
 
 ## 👤 Author / المطور
 
-**hmood** — [CodeFlow Developments](https://github.com/CodeFlowDevelopments)
+**hmood** — [CodeFlow Developments](https://github.com/CodeFlowDevelopments) — [CodeFlow Discord](https://discord.gg/DcBd77j7Xx) — [Guns.Lol](https://guns.lol/97uc)
 
 ---
 
